@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class containsDuplicate {
 
-    public boolean containsDuplicate(int[] nums) {
+    public static boolean containsDuplicate(int[] nums) {
 
         Map<Integer,Integer> h=new HashMap<>();
         for (int i : nums) {
@@ -20,7 +20,7 @@ public class containsDuplicate {
         return false;
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         boolean ans = containsDuplicate(new int[]{1, 1, 1, 3, 3, 4, 3, 2, 4, 2});
         System.out.println(ans);
     }
