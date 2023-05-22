@@ -67,7 +67,7 @@ public class productExceptSelf {
 
 
         /*
-        Given numbers [2, 3, 4, 5], regarding the third number 4, the product of array except 4 is 2*3*5 which consists of two parts: left 2*3 and right 5. The product is left*right. We can get lefts and rights:
+        Given numbers [2, 3, 4, 5],so regarding the third number 4, the product of array except 4 is 2*3*5 which consists of two parts: left 2*3 and right 5. The product is left*right. We can get lefts and rights:
 
         Numbers:     2    3    4     5
         Lefts:            2  2*3 2*3*4
