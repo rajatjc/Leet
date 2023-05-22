@@ -12,7 +12,7 @@ public class containsDuplicate {
         for (int i : nums) {
             if(h.containsKey(i))
                 return true;
-            //also
+            //also we can
             else
                 h.put(i,1);
 
