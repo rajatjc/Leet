@@ -20,3 +20,6 @@ public:
         return *max_element(dp.begin(), dp.end()); // Return the maximum value in dp
     }
 };
+
+
+https://cp-algorithms.com/graph/lca_binary_lifting.html
