@@ -23,10 +23,6 @@ int countIntervals(vector<Interval> &intervals, int number)
 {
     sort(intervals.begin(), intervals.end(), compareStart);
 
-  
-  
-  
-  
     auto left = lower_bound(intervals.begin(), intervals.end(), Interval{number, 0}, [](const Interval &a, const Interval &b)
                             { return a.end < b.start; });
 
@@ -42,6 +38,21 @@ int countIntervals(vector<Interval> &intervals, int number)
         }
     }
     return count;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
 
 int main()
